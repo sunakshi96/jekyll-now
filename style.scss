@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: #FEF6F3;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -123,11 +123,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $crimson;
+  background: $lightGray;
 }
 ::selection {
   color: $black;
-  background: $crimson;
+  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -168,8 +168,6 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
-	border-radius: 10px;
-	border: solid 2px $crimson;
 
   @include mobile {
     float: none;
